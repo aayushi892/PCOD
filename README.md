@@ -1,4 +1,3 @@
-Here’s an engaging and visually appealing README file for your Polycystic Ovarian Syndrome (PCOS) prediction project, highlighting the machine learning techniques used, the Python UI, and deployment on Streamlit:
 
 
 # 🌸 Polycystic Ovarian Syndrome (PCOS) Prediction Using Machine Learning
@@ -19,7 +18,7 @@ Welcome to the **PCOS Prediction** project! This innovative application leverage
 
 ## 📊 Dataset
 
-The dataset used for this project is sourced from [Kaggle], and it contains features such as:
+The dataset used for this project  contains features such as:
 
 | Feature               | Description                                   |
 |-----------------------|-----------------------------------------------|
@@ -76,7 +75,7 @@ The performance of the models is evaluated and documented in the `results/` dire
   - SVM: 85%
   - Naive Bayes: 98%
 
-![Model Comparison](images/model-comparison.png)
+
 
 - **Confusion Matrices**: Visualize the performance of each model.
 
