@@ -1,14 +1,11 @@
 Here’s an engaging and visually appealing README file for your Polycystic Ovarian Syndrome (PCOS) prediction project, highlighting the machine learning techniques used, the Python UI, and deployment on Streamlit:
 
----
 
 # 🌸 Polycystic Ovarian Syndrome (PCOS) Prediction Using Machine Learning
 
 ## 📖 Overview
 
 Welcome to the **PCOS Prediction** project! This innovative application leverages advanced machine learning techniques, including Support Vector Machine (SVM) and Naive Bayes, to predict the likelihood of Polycystic Ovarian Syndrome in individuals. With a user-friendly Python interface deployed on **Streamlit**, this tool aims to empower users with quick and accurate health insights.
-
-![PCOS Prediction](images/pcos-prediction-banner.png)
 
 ## 🎯 Objectives
 
@@ -22,7 +19,7 @@ Welcome to the **PCOS Prediction** project! This innovative application leverage
 
 ## 📊 Dataset
 
-The dataset used for this project is sourced from [insert source, e.g., Kaggle], and it contains features such as:
+The dataset used for this project is sourced from [Kaggle], and it contains features such as:
 
 | Feature               | Description                                   |
 |-----------------------|-----------------------------------------------|
@@ -34,7 +31,6 @@ The dataset used for this project is sourced from [insert source, e.g., Kaggle],
 | **Ovarian Volume**    | Volume of the ovaries                         |
 | **PCOS Status**       | Target variable indicating PCOS diagnosis     |
 
-![Sample Data Visualization](images/sample-data-visualization.png)
 
 ## 🛠️ Installation
 
@@ -71,31 +67,28 @@ To launch the interactive UI, execute:
 streamlit run app.py
 ```
 
-![Streamlit App Screenshot](images/streamlit-app-screenshot.png)
 
 ## 📈 Results
 
 The performance of the models is evaluated and documented in the `results/` directory. Key outputs include:
 
 - **Model Accuracy**:
-  - SVM: 90%
-  - Naive Bayes: 85%
+  - SVM: 85%
+  - Naive Bayes: 98%
 
 ![Model Comparison](images/model-comparison.png)
 
 - **Confusion Matrices**: Visualize the performance of each model.
 
-![SVM Confusion Matrix](images/svm-confusion-matrix.png)
-
-![Naive Bayes Confusion Matrix](images/naive-bayes-confusion-matrix.png)
 
 ## 🔮 Future Work
 
 Future enhancements may include:
 
 - Expanding the dataset to incorporate more diverse patient profiles.
-- Implementing additional machine learning models for comparison, such as Random Forest or Neural Networks.
+- Implementing additional machine learning models for comparison, such as Neural Networks.
 - Enhancing the Streamlit app with more interactive features and visualizations.
+- pdf reading feature to extract the data using ocr
 
 
 ## 🙏 Acknowledgments
